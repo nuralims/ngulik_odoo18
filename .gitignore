@@ -1,0 +1,11 @@
+postgresql/
+etc/odoo-server.log
+etc/addons/
+etc/sessions/
+etc/filestore/
+.addons/
+screenshots/
+docker-compose.yml
+entrypoint.sh
+run.sh
+README.md
