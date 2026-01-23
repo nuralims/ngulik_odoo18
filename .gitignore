@@ -9,3 +9,5 @@ docker-compose.yml
 entrypoint.sh
 run.sh
 README.md
+etc/
+.vscode/
