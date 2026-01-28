@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<record id="action_sale_order_restaurant" model="ir.actions.act_window">
+		<field name="name">Restaurant Orders</field>
+		<field name="res_model">sale.order</field>
+		<field name="view_mode">list,form</field>
+		<field name="domain">[("order_type", "!=", False)]</field>
+		<field name="context">{"search_default_order_type": 1}</field>
+	</record>
+
+	<menuitem id="menu_sale_order_restaurant"
+		name="Restaurant"
+		parent="sale.menu_sale_order"
+		action="action_sale_order_restaurant"
+		sequence="25" />
+
+	<record id="view_order_form_restaurant_sales" model="ir.ui.view">
+		<field name="name">sale.order.form.restaurant.sales</field>
+		<field name="model">sale.order</field>
+		<field name="inherit_id" ref="sale.view_order_form" />
+		<field name="arch" type="xml">
+			<xpath expr="//sheet//notebook" position="inside">
+				<page string="Restaurant">
+					<group>
+						<field name="order_type" />
+						<field name="restaurant_table" invisible="order_type != 'dine_in'" />
+						<field name="waiter_name" invisible="order_type != 'dine_in'" />
+					</group>
+				</page>
+			</xpath>
+		</field>
+	</record>
+</odoo>

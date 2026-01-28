@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="estate_property_demo_01" model="estate.property">
+        <field name="names">Sunny Family House</field>
+        <field name="description">Rumah keluarga dengan taman luas dan akses mudah ke sekolah.</field>
+        <field name="postcode">12345</field>
+        <field name="date_availability">2026-03-01</field>
+        <field name="expected_price">350000.0</field>
+        <field name="selling_price">0.0</field>
+        <field name="bedrooms">3</field>
+        <field name="living_area">120</field>
+        <field name="facades">2</field>
+        <field name="garage">True</field>
+        <field name="garden">True</field>
+        <field name="garden_area">60</field>
+        <field name="garden_orientation">south</field>
+        <field name="state">new</field>
+        <field name="active">True</field>
+    </record>
+
+    <record id="estate_property_demo_02" model="estate.property">
+        <field name="names">Modern City Apartment</field>
+        <field name="description">Apartemen modern di pusat kota, dekat transportasi umum.</field>
+        <field name="postcode">67890</field>
+        <field name="date_availability">2026-02-15</field>
+        <field name="expected_price">250000.0</field>
+        <field name="selling_price">0.0</field>
+        <field name="bedrooms">2</field>
+        <field name="living_area">85</field>
+        <field name="facades">1</field>
+        <field name="garage">False</field>
+        <field name="garden">False</field>
+        <field name="garden_area">0</field>
+        <field name="garden_orientation">north</field>
+        <field name="state">offer_received</field>
+        <field name="active">True</field>
+    </record>
+
+    <record id="estate_property_demo_03" model="estate.property">
+        <field name="names">Cozy Suburban Home</field>
+        <field name="description">Rumah nyaman di pinggiran, lingkungan tenang.</field>
+        <field name="postcode">54321</field>
+        <field name="date_availability">2026-04-10</field>
+        <field name="expected_price">280000.0</field>
+        <field name="selling_price">0.0</field>
+        <field name="bedrooms">4</field>
+        <field name="living_area">150</field>
+        <field name="facades">3</field>
+        <field name="garage">True</field>
+        <field name="garden">True</field>
+        <field name="garden_area">80</field>
+        <field name="garden_orientation">east</field>
+        <field name="state">new</field>
+        <field name="active">True</field>
+    </record>
+
+    <record id="estate_property_demo_04" model="estate.property">
+        <field name="names">Green Hills Villa</field>
+        <field name="description">Villa dengan pemandangan bukit dan udara segar.</field>
+        <field name="postcode">11223</field>
+        <field name="date_availability">2026-05-05</field>
+        <field name="expected_price">520000.0</field>
+        <field name="selling_price">0.0</field>
+        <field name="bedrooms">5</field>
+        <field name="living_area">220</field>
+        <field name="facades">4</field>
+        <field name="garage">True</field>
+        <field name="garden">True</field>
+        <field name="garden_area">120</field>
+        <field name="garden_orientation">west</field>
+        <field name="state">new</field>
+        <field name="active">True</field>
+    </record>
+
+    <record id="estate_property_demo_05" model="estate.property">
+        <field name="names">Riverside Cottage</field>
+        <field name="description">Cottage dekat sungai, cocok untuk liburan keluarga.</field>
+        <field name="postcode">33445</field>
+        <field name="date_availability">2026-06-12</field>
+        <field name="expected_price">210000.0</field>
+        <field name="selling_price">0.0</field>
+        <field name="bedrooms">2</field>
+        <field name="living_area">70</field>
+        <field name="facades">2</field>
+        <field name="garage">False</field>
+        <field name="garden">True</field>
+        <field name="garden_area">40</field>
+        <field name="garden_orientation">south</field>
+        <field name="state">offer_received</field>
+        <field name="active">True</field>
+    </record>
+
+    <record id="estate_property_demo_06" model="estate.property">
+        <field name="names">Urban Loft</field>
+        <field name="description">Loft modern dengan akses cepat ke pusat bisnis.</field>
+        <field name="postcode">55667</field>
+        <field name="date_availability">2026-02-28</field>
+        <field name="expected_price">300000.0</field>
+        <field name="selling_price">0.0</field>
+        <field name="bedrooms">1</field>
+        <field name="living_area">65</field>
+        <field name="facades">1</field>
+        <field name="garage">False</field>
+        <field name="garden">False</field>
+        <field name="garden_area">0</field>
+        <field name="garden_orientation">north</field>
+        <field name="state">new</field>
+        <field name="active">True</field>
+    </record>
+
+    <record id="estate_property_demo_07" model="estate.property">
+        <field name="names">Lakeview Residence</field>
+        <field name="description">Rumah tepi danau dengan teras luas.</field>
+        <field name="postcode">77889</field>
+        <field name="date_availability">2026-07-01</field>
+        <field name="expected_price">460000.0</field>
+        <field name="selling_price">0.0</field>
+        <field name="bedrooms">4</field>
+        <field name="living_area">180</field>
+        <field name="facades">3</field>
+        <field name="garage">True</field>
+        <field name="garden">True</field>
+        <field name="garden_area">90</field>
+        <field name="garden_orientation">east</field>
+        <field name="state">offer_received</field>
+        <field name="active">True</field>
+    </record>
+
+    <record id="estate_property_demo_08" model="estate.property">
+        <field name="names">Hilltop Bungalow</field>
+        <field name="description">Bungalow di puncak bukit dengan view kota.</field>
+        <field name="postcode">99110</field>
+        <field name="date_availability">2026-05-20</field>
+        <field name="expected_price">330000.0</field>
+        <field name="selling_price">0.0</field>
+        <field name="bedrooms">3</field>
+        <field name="living_area">130</field>
+        <field name="facades">2</field>
+        <field name="garage">True</field>
+        <field name="garden">True</field>
+        <field name="garden_area">55</field>
+        <field name="garden_orientation">west</field>
+        <field name="state">new</field>
+        <field name="active">True</field>
+    </record>
+
+    <record id="estate_property_demo_09" model="estate.property">
+        <field name="names">Garden Townhouse</field>
+        <field name="description">Townhouse dengan taman kecil dan carport.</field>
+        <field name="postcode">44556</field>
+        <field name="date_availability">2026-03-18</field>
+        <field name="expected_price">240000.0</field>
+        <field name="selling_price">0.0</field>
+        <field name="bedrooms">3</field>
+        <field name="living_area">110</field>
+        <field name="facades">2</field>
+        <field name="garage">True</field>
+        <field name="garden">True</field>
+        <field name="garden_area">35</field>
+        <field name="garden_orientation">south</field>
+        <field name="state">new</field>
+        <field name="active">True</field>
+    </record>
+
+    <record id="estate_property_demo_10" model="estate.property">
+        <field name="names">Coastal Retreat</field>
+        <field name="description">Rumah dekat pantai dengan akses mudah ke fasilitas umum.</field>
+        <field name="postcode">66778</field>
+        <field name="date_availability">2026-08-08</field>
+        <field name="expected_price">410000.0</field>
+        <field name="selling_price">0.0</field>
+        <field name="bedrooms">4</field>
+        <field name="living_area">160</field>
+        <field name="facades">3</field>
+        <field name="garage">False</field>
+        <field name="garden">True</field>
+        <field name="garden_area">75</field>
+        <field name="garden_orientation">east</field>
+        <field name="state">offer_received</field>
+        <field name="active">True</field>
+    </record>
+</odoo>
